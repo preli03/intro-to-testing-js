@@ -21,5 +21,13 @@ function sayHello(input) {
         return( "Hello, " + input + "!");
     }
         }
+        //Define isFive as a function
+function isFive(input) {
+    if ( input === 5 || input === "5"){
+        return true }
+    else {
+        return false
+    }
+}
 
 
